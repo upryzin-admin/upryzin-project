@@ -1,3 +1,4 @@
-upryzin-project / app.js
-// Learning JavaScript in upryzin-project
-// More code coming soon!
+document.getElementById("helloBtn").addEventListener("click", () => {
+  document.getElementById("output").textContent = "Hello from your web app!";
+});
+
